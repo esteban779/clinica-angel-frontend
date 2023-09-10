@@ -1,0 +1,38 @@
+@import '../../../../assets/sass/general.scss';
+
+.login-container {
+    background-attachment: fixed;
+    background-image: url(../../../../assets/login/login-background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+    .login-form{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-left: 60px;
+        width: 40%;
+
+        form {
+            position: relative;
+            width: 65%;
+
+            h1 {
+                font-family: $ff-gotham-ultra;
+                font-size: 2rem;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            p {
+                margin: 20px auto;
+                text-align: center;
+                width: 80%;
+            }
+        }
+    }
+}
